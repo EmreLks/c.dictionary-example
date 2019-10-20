@@ -18,10 +18,10 @@ main()
 void anamenu()
 {
 	int islem;
-	printf("\t\t**********   ÝÞLEM SECÝNÝZ:                 **********\n");
-	printf("\t\t**********   TÜRKÇE KELÝME ARAMA    =>[1]   **********\n");
-	printf("\t\t**********   ÝNGÝLÝZCE KELÝME ARAMA =>[2]   **********\n");
-	printf("\t\t**********   ÇIKIÞ                  =>[3]   **********\n\n");
+	printf("\t\t**********   ISLEM SECINIZ:                 **********\n");
+	printf("\t\t**********   TURKCE KELIME ARAMA    =>[1]   **********\n");
+	printf("\t\t**********   INGILIZCE KELIME ARAMA =>[2]   **********\n");
+	printf("\t\t**********   CIKIS                  =>[3]   **********\n\n");
 	printf("Secim: ");scanf("%d",&islem);
 	system("cls");
 	switch(islem)
@@ -37,7 +37,7 @@ void anamenu()
 		case 3:
 			exit(0);
 		defaut:
-			printf("Yanlýs Islem Secimi!!!\n");
+			printf("Yanlis Islem Secimi!!!\n");
 			anamenu();
 
 	}
